@@ -2,7 +2,10 @@
 
 <form [formGroup]="formGroup">
     <div>
-        <cf-inputtext [label]="'Leírás'" formControlName="text"></cf-inputtext>
+        <cf-inputtext [label]="'Teendő'" formControlName="text"></cf-inputtext>
+    </div>
+    <div>
+        <cf-inputtext [label]="'Leírás'" formControlName="description"></cf-inputtext>
     </div>
     <div>
         <cf-checkbox [label]="'Kész'" formControlName="done"></cf-checkbox>

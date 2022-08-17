@@ -15,6 +15,7 @@ todoId : number | null = null;
 formGroup: FormGroup = new FormGroup(
   {
     text: new FormControl(''),
+    description: new FormControl(''),
     done: new FormControl(false)
   }
 )
